@@ -1,0 +1,23 @@
+{
+	"name": "weidizhang/php-curl-wrapper",
+	"description": "A wrapper for cURL that makes it easy to use/manage requests and responses.",
+	"license": "CC BY-NC-ND 4.0",
+	
+	"authors": [
+		{
+			"name": "Weidi Zhang",
+			"homepage": "https://weidizhang.github.io/",
+			"role": "Developer"
+		}
+	],
+	
+	"autoload": {
+		"psr-4": {
+			"weidizhang\\PHPCurlWrapper\\": "src/"
+		}
+	},
+		
+	"require": {
+		"php": ">=5.5.0"
+	}
+}
